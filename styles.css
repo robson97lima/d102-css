@@ -2,15 +2,54 @@ body{
     margin: 0;
 }
 nav{
+    height: 50pt;
     align-items: center;
     background-color: #e98251;
     display: flex;
     height: 60 px;
     justify-content: space-evenly;
+    font-family: 'Roboto', sans-serif;
 }
-nav a{
+
+a{
     color: #17386d;
-    font-family: 'VT323', monospace
-    font-size: 22pt;
+    font-family: 'VT323', monospace;
+    font-size: 16px;
+    padding: 40px;
     text-decoration: none;
+    font-family: 'Roboto', sans-serif
+}
+
+head{
+    background-image:image-set(http://rpgnarutoworldninja.weebly.com/uploads/2/4/1/9/24197261/1169369_orig.jpg);
+    background-size: cover;
+    height: 400px;
+    size:flex
+}
+
+section{
+    background-color:#b0946b;
+    display: flex;
+    justify-content: space-evenly;
+    font family:'Roboto', sans-serif
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+div{
+    text-align: center;
+    width: 40%;
+}
+h2{
+    font-family:'Roboto', sans-serif;
+    font-size: 25px;
+}
+div u{
+    list-style-image: url("imagem/ninja ")
+}
+ul{
+    font-family: 'Roboto', sans-serif;
+}
+ul li:nth-child(even){
+    color: antiquewhite
 }
